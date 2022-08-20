@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+}
+#title{
+    background-color: #ff4c68;
+    color: #ffff;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 6%;
+
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* title section image */
+.title-image{
+    width: 17%;
+    transform: rotate(20deg); /*rotaing the image*/
+    
+    position: absolute;
+    right: 23%;
+}
+
+/* Title section features */
+#features{
+    text-align: center;
+    background-color: #fff;
+   position: relative;
+  
+  
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-right: 15%;
+    padding-left: 15%;
+    
+}
+h2{
+ font-family: 'Montserrat';
+ font-size: 3rem;
+ line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.features-padding{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.shapes{
+    color: #ef8172;
+    cursor: pointer;
+    padding-bottom: 4%;
+
+}
+.shapes:hover{
+    color: #ff4c68;
+}
+p{
+    font-size:1.0rem ;
+    font-weight: lighter;
+    color: rgb(131, 140, 149);
+}
+/* testimonials section  */
+#testimonials{
+    padding: 5% 18% 5% 18%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+.testimonials-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 3% 2%;
+}
+
+/* press section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+ width: 15%;
+ margin: 2% 2% 3% 3%;
+}
+/* card section */
+#pricing
+{
+    padding: 120px;
+}
+.column-alignment{
+    text-align: center;
+    padding: 5% 3%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 9% 17%;
+
+}
+.true-love{
+    font-family: 'Montserrat';
+    padding: 3% 0 3%;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.button-pa{
+    margin: 1% 1%;
+}
+/* footer features */
+#footer{
+    margin: 40px 0 0;
+    padding: 5% 6%;
+    text-align: center;
+}
+.brands-padding{
+    padding: 0 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px)
+{
+#title{
+    text-align: center;
+}
+.title-image{
+    transform: rotate(0);
+    position: static;
+    width: 50%;
+}
+
+}
